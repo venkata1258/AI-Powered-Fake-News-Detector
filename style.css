@@ -1,0 +1,63 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e7f1f9; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: #ffffff; /* Changed to white for better contrast */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 650px;
+    text-align: center; /* Center content inside container */
+}
+
+/* Intro Text Styling */
+.intro-text {
+    color: #555; /* Dark gray for intro text */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    color: #1e88e5; /* Blue color for heading */
+    font-size: 32px;
+}
+
+/* Label Styling */
+label {
+    font-size: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    background-color: #1e88e5; /* Blue button */
+}
+
+/* Submit Button Hover Effects */
+.submit-btn:hover {
+    background-color: #1565c0; /* Darker blue */
+}
+
+/* Result Styling */
+#result {
+    margin-top: 30px;
+}
